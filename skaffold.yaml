@@ -27,5 +27,5 @@ profiles:
       - name: golang-http
         chartPath: charts/golang-http
         setValueTemplates:
-          image.repository: "{{.DOCKER_REGISTRY}}/faiq/golang-http"
+          image.repository: "{{.DOCKER_REGISTRY}}/oracle-cloudnative/golang-http"
           image.tag: "{{.DIGEST_HEX}}"
